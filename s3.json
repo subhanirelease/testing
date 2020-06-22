@@ -1,0 +1,27 @@
+{
+                                "Version": "2012-10-17",
+                                "Id": "Policy1591552496086",
+                                        "Statement": [
+                                                {
+                                                    "Sid": "Stmt1591552446836",
+                                                    "Effect": "Allow",
+                                                    "Principal": {
+                                                         "AWS": "arn:aws:iam::641518622681:user/$User_Variable"
+                                                     },
+                                                    "Action": [
+                                                        "s3:GetObject",
+                                                        "s3:PutObject"
+                                                    ],
+                                                    "Resource": "arn:aws:s3:::$customername_riq/*"
+                                                },
+                                                {
+                                                    "Sid": "Stmt1591552494926",
+                                                    "Effect": "Allow",
+                                                    "Principal": {
+                                                        "AWS": "arn:aws:iam::cloudfront:user/CloudFront Origin Access Identity E1H5RVQK6Y9EAP"
+                                                    },
+                                                    "Action": "s3:GetObject",
+                                                    "Resource": "arn:aws:s3:::$customername_riq/*"
+                                                }
+                                            ]
+                                        }
