@@ -1,8 +1,9 @@
-{
+ {
   "DelaySeconds": "0",
-  "MaximumMessageSize": "256",
-  "MessageRetentionPeriod": "4",
+  "MaximumMessageSize": "262144",
+  "MessageRetentionPeriod": "345600",
   "ReceiveMessageWaitTimeSeconds": "0",
   "VisibilityTimeout": "60",
-  "FifoQueue":"true"
+  "FifoQueue":"true",
+  "ContentBasedDeduplication":"true"
 }
