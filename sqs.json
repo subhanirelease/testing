@@ -3,6 +3,6 @@
   "MaximumMessageSize": "256",
   "MessageRetentionPeriod": "4",
   "ReceiveMessageWaitTimeSeconds": "0",
-  "VisibilityTimeout": "60"
+  "VisibilityTimeout": "60",
   "FifoQueue":"true"
 }
