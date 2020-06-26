@@ -3,8 +3,26 @@
   "MaximumMessageSize": "262144",
   "MessageRetentionPeriod": "345600",
   "ReceiveMessageWaitTimeSeconds": "0",
+  "Policy":"{
+  "Version": "2012-10-17",
+  "Id": "arn:aws:sqs:us-west-2:641518622681:solta_actions_productbe_riq-agent.fifo.fifo/SQSDefaultPolicy",
+  "Statement": [
+    {
+      "Sid": "Sid1589957070927",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::641518622681:user/User_Variable"
+      },
+      "Action": [
+        "sqs:ReceiveMessage",
+        "sqs:SendMessage",
+        "sqs:DeleteMessage"
+      ],
+      "Resource": "arn:aws:sqs:us-west-2:641518622681:solta_actions_productbe_riq-agent.fifo"
+    }
+  ]
+}"
   "VisibilityTimeout": "60",
   "FifoQueue":"true",
-  "ContentBasedDeduplication":"true",
-  "Policy":"enabled"
+  "ContentBasedDeduplication":"true"
 }
