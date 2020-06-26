@@ -6,7 +6,8 @@
   "VisibilityTimeout": "60",
   "FifoQueue":"true",
   "ContentBasedDeduplication":"true",
-  "Policy":"{
+  "Policy":"
+  {
   "Version": "2012-10-17",
   "Id": "arn:aws:sqs:us-west-2:641518622681:solta_actions_productbe_riq-agent.fifo.fifo/SQSDefaultPolicy",
   "Statement": [
