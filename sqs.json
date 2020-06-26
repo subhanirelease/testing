@@ -6,5 +6,5 @@
   "VisibilityTimeout": "60",
   "FifoQueue":"true",
   "ContentBasedDeduplication":"true",
-  "Policy":"sqs1.json"
+  "Policy":"true"
 }
