@@ -1,4 +1,4 @@
-sqs2.json
+sqs2.json:
 {
   "Policy": "{ \"Version\": \"2012-10-17\", \"Id\": \"arn:aws:sqs:us-west-2:641518622681:solta_actions_productbe_riq-agent.fifo.fifo/SQSDefaultPolicy\", \"Statement\": [ { \"Sid\": \"Sid1589957070927\", \"Effect\": \"Allow\", \"Principal\": { \"AWS\": \"arn:aws:iam::641518622681:user/User_Variable\" }, \"Actions\": \"SQS:SendMessage ,ReceiveMessage,DeleteMessage\", \"Resource\": \"arn:aws:sqs:us-west-2:641518622681:solta_actions_productbe_riq-agent.fifo\" } ] }"
 } 
