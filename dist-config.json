@@ -14,7 +14,7 @@
 					"Quantity": 0
 				},
 				"S3OriginConfig": {
-					"OriginAccessIdentity": "string"
+					"OriginAccessIdentity": "origin-access-identity/cloudfront/E1H5RVQK6Y9EAP"
 				}
 			}]
 		},
