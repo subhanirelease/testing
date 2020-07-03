@@ -174,7 +174,7 @@
 		},
 		"Comment": "",
 		"Logging": {
-			"Enabled": true,
+			"Enabled": false,
 			"IncludeCookies": false,
 			"Bucket": "riq-logs.s3.amazonaws.com",
 			"Prefix": "staging/cdn-logs/"
