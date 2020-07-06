@@ -1,9 +1,9 @@
  {
                                 "Version": "2012-10-17",
-                                "Id": "Policy1591552496086",
+                                "Id": "riq123",
                                         "Statement": [
                                                 {
-                                                    "Sid": "Stmt1591552446836",
+                                                    "Sid": "riq123",
                                                     "Effect": "Allow",
                                                     "Principal": {
                                                          "AWS": "arn:aws:iam::571415690638:user/User_Variable"
