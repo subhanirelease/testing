@@ -1,0 +1,8 @@
+{
+  "SmsMessage": "Your verification code is {####}.",
+  "EmailMessage": "<p>Hello,</p>\n<p>&nbsp; We have received a request to reset your password.</p>\n\n<p>&nbsp; Please use verification code {####} to reset your password.</p>\n\n<p>Sincerely,\n  <br/>  \nSupport Team - ReleaseIq.io</p>\n",
+  "EmailSubject": "Reset Password - Verification code",
+  "EmailMessageByLink": "Please click the link below to verify your email address. {##Verify Email##}",
+  "EmailSubjectByLink": "Your verification link",
+  "DefaultEmailOption": "CONFIRM_WITH_LINK"
+}
