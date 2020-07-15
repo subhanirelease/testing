@@ -3,7 +3,7 @@
   "UnusedAccountValidityDays": 7,
   "InviteMessageTemplate": {
     "SMSMessage": "Your username is {username} and temporary password is {####}",
-    "EmailMessage": "<p><strong>Welcome to ReleaseIQ.io</strong></p>\n\n<p>Your account has been created.</p>\n\n<p>Please login to  <a href=\"https://app.stage.releaseiq.io\"> https://app.stage.releaseiq.io</a>\n<br/>\n  Your username is <strong>{username}</strong> and temporary password is <strong>{####}</strong></p>\n\n<p>Sincerely, \n  <br/>  \n  Support Team - ReleaseIq.io</p>",
+    "EmailMessage": "<p><strong>Welcome to ReleaseIQ.io</strong></p>\n\n<p>Your account has been created.</p>\n\n<p>Please login to  <a href=\"customername_riq\"> customername_riq</a>\n<br/>\n  Your username is <strong>{username}</strong> and temporary password is <strong>{####}</strong></p>\n\n<p>Sincerely, \n  <br/>  \n  Support Team - ReleaseIq.io</p>",
     "EmailSubject": "Welcome to ReleaseIQ - Account Confirmation"
   }
 }
