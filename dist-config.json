@@ -183,11 +183,9 @@
                 "PriceClass": "PriceClass_100",
                 "Enabled": true,
                 "ViewerCertificate": {
-                         "ACMCertificateArn": "tm",
-                        "SSLSupportMethod": "sni-only",
-                        "MinimumProtocolVersion": "TLSv1.2_2018",
-                        "Certificate": "tm",
-                        "CertificateSource": "acm"
+                           "CloudFrontDefaultCertificate": true,
+                        "MinimumProtocolVersion": "TLSv1",
+                        "CertificateSource": "cloudfront"
                 },
 
                 "Restrictions": {
