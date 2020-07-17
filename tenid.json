@@ -1,0 +1,11 @@
+{ 
+	 enterpriseName: this.state.enterprisename,
+         address1: this.state.address1,
+         address2: this.state.address2,
+         city: this.state.city,
+         state: this.state.states,
+         country: this.state.country,
+         zipPostalCode: this.state.zipcode,
+         createdBy: this.state.profileEmail,
+         updatedBy: this.state.profileEmail
+      }
