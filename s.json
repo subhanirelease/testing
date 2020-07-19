@@ -6,13 +6,13 @@
             "Sid": "riq123",
             "Effect": "Allow",
             "Principal": {
-                "AWS": "arn:aws:iam::571415690638:user/User_Variable"
+                "AWS": "arn:aws:iam::571415690638:user/bucket_name"
             },
             "Action": [
                 "s3:GetObject",
                 "s3:PutObject"
             ],
-            "Resource": "arn:aws:s3:::customer_name/*"
+            "Resource": "arn:aws:s3:::bucket_name/*"
         },
         {
             "Sid": "riq123",
@@ -21,7 +21,7 @@
                 "AWS": "arn:aws:iam::cloudfront:user/CloudFront Origin Access Identity E35S79CBBUG9HJ"
             },
             "Action": "s3:GetObject",
-            "Resource": "arn:aws:s3:::customer_name/*"
+            "Resource": "arn:aws:s3:::bucket_name/*"
         }
     ]
 }
