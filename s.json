@@ -6,7 +6,7 @@
             "Sid": "riq123",
             "Effect": "Allow",
             "Principal": {
-                "AWS": "arn:aws:iam::571415690638:user/bucket_name"
+                "AWS": "arn:aws:iam::571415690638:user/customer_name"
             },
             "Action": [
                 "s3:GetObject",
