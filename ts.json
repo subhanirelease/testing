@@ -7,8 +7,8 @@
                 "Origins": {
                         "Quantity": 1,
                         "Items": [{
-                                "Id": "customer_name",
-                                "DomainName": "customer_name.s3.amazonaws.com",
+                                "Id": "bucket_name",
+                                "DomainName": "bucket_name.s3.amazonaws.com",
                                 "OriginPath": "",
                                 "CustomHeaders": {
                                         "Quantity": 0
@@ -22,7 +22,7 @@
                         "Quantity": 0
                 },
                 "DefaultCacheBehavior": {
-                        "TargetOriginId": "customer_name",
+                        "TargetOriginId": "bucket_name",
                         "ForwardedValues": {
                                 "QueryString": false,
                                 "Cookies": {
@@ -68,7 +68,7 @@
                         "Quantity": 2,
                         "Items": [{
                                         "PathPattern": "/admin-ui*",
-                                        "TargetOriginId": "customer_name",
+                                        "TargetOriginId": "bucket_name",
                                         "ForwardedValues": {
                                                 "QueryString": false,
                                                 "Cookies": {
@@ -112,7 +112,7 @@
                                 },
                                 {
                                         "PathPattern": "/product-ui*",
-                                        "TargetOriginId": "customer_name",
+                                        "TargetOriginId": "bucket_name",
                                         "ForwardedValues": {
                                                 "QueryString": false,
                                                 "Cookies": {
