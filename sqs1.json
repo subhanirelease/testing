@@ -6,7 +6,7 @@
       "Sid": "Sid1589957070927",
       "Effect": "Allow",
       "Principal": {
-        "AWS": "arn:aws:iam::641518622681:user/User_Variable"
+        "AWS": "arn:aws:iam::641518622681:user/customer_name"
       },
       "Action": [
         "sqs:ReceiveMessage",
