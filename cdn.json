@@ -183,9 +183,11 @@
                 "PriceClass": "PriceClass_100",
                 "Enabled": true,
                 "ViewerCertificate": {
-                        "CloudFrontDefaultCertificate": true,
-                        "MinimumProtocolVersion": "TLSv1",
-                        "CertificateSource": "cloudfront"
+                         "ACMCertificateArn": "arn:aws:acm:us-east-1:641518622681:certificate/583e09a0-c076-4efa-b1ee-37acd0903eea",
+                         "SSLSupportMethod": "sni-only",
+                         "MinimumProtocolVersion": "TLSv1.2_2018",
+                         "Certificate": "arn:aws:acm:us-east-1:641518622681:certificate/583e09a0-c076-4efa-b1ee-37acd0903eea",
+                         "CertificateSource": "acm"
                 },
 
                 "Restrictions": {
