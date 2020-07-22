@@ -1,6 +1,6 @@
  {
    "Version": "2012-10-17",
-   "Id": "arn:aws:sqs:us-west-2:641518622681:subhani.fifo/SQSDefaultPolicy",
+   "Id": "arn:aws:sqs:us-east-2:641518622681:subhani.fifo/SQSDefaultPolicy",
    "Statement": [{
       "Sid":"Sid1589957070927",
       "Effect": "Allow",
@@ -9,6 +9,6 @@
          "sqs:ReceiveMessage",
          "sqs:DeleteMessage"
           ],
-      "Resource": "arn:aws:sqs:us-west-2:641518622681:subhani.fifo"
+      "Resource": "arn:aws:sqs:us-east-2:641518622681:subhani.fifo"
    }]
 }
