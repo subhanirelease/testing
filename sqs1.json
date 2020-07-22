@@ -1,8 +1,8 @@
  {
    "Version": "2012-10-17",
-   "Id": "arn:aws:sqs:us-east-2:641518622681:subhani.fifo/SQSDefaultPolicy",
+   "Id": "arn:aws:sqs:us-west-2:641518622681:subhani.fifo/SQSDefaultPolicy",
    "Statement": [{
-      "Sid":"Sid1589957070927",
+      "Sid":"1",
       "Effect": "Allow",
       "Action": [
           "sqs:SendMessage",
